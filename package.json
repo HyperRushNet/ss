@@ -1,12 +1,8 @@
 {
-  "name": "puppeteer-vercel",
-  "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "puppeteer-core": "^10.0.0",
-    "chrome-aws-lambda": "^10.0.0"
+    "puppeteer": "^10.0.0"
   }
 }
