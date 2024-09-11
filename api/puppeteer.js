@@ -9,5 +9,5 @@ module.exports = async (req, res) => {
     await page.waitForSelector('#result-stats');
     const resultStats = await page.$eval('#result-stats', el => el.innerText);
     await browser.close();
-    res.send(resultStats);
+    res.status(200).send(resultStats);
 };
