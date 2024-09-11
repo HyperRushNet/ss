@@ -1,4 +1,4 @@
-onst puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer');
 
 module.exports = async (req, res) => {
     const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
